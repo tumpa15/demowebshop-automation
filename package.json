@@ -1,0 +1,21 @@
+{
+  "name": "demowebshop-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:html": "playwright show-report",
+    "test:allure": "allure generate allure-results --clean -o allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "allure-commandline": "^2.46.1",
+    "allure-playwright": "^3.14.0"
+  }
+}
